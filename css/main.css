@@ -1,7 +1,11 @@
 /* add custom styles */
 body{
+  font-family:'Comic Sans MS';
   text-align: center;
   padding: 15px;
   margin: 15px;
 
+}
+.tipCalc {
+  width: 50%;
 }
