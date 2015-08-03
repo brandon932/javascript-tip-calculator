@@ -6,6 +6,6 @@ $(document).on('ready', function() {
   var bill = $("#bill").val();
   var tipAmnt = 0.20;
   var tip = $("#bill").val() * tipAmnt;
-  $(".tipAmt").html('<h2>You should tip '+tip +' dollars.</h2>');
+  $(".tipAmt").html('<h2>You should tip '+tip.toFixed(2) +'</h2>');
   });
 });
