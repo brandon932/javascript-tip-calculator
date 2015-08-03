@@ -10,12 +10,13 @@
   </head>
   <body>
     <!-- <div class="tipCalc"> -->
-        <form class="tips" action="index.html" method="post">
+        <form autocomplete="off" class="tips" action="index.html" method="post">
           <h1>Tip Calculator!</h1>
           <br>
-          <input id="bill" type="text" name="name" value="" placeholder="amount of bill...">
-          <select class="tipValue" >
-            <option placeholder="how much"= value=".10">10%</option>
+          <input id="bill" type="text"  name="name" value="" placeholder="amount of bill...">
+          <select class="tipValue ">
+            <option value="" disabled selected style="display:;">how much?</option>
+            <option value=".10">10%</option>
             <option value=".15">15%</option>
             <option value=".20">20%</option>
           </select>
